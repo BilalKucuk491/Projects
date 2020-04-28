@@ -16,26 +16,7 @@ number_mod = lambda num1,num2: num1 % num2
 print(number_mod(9, 2)) 
 
 kuvvetAl =lambda taban,kuvvet: taban**kuvvet
-print(kuvvetAl(2, 4))
-
-
-x = int(input("Enter a number "))
-
-odd_or_even = lambda x : x % 2 == 0 
-
-if odd_or_even(x):
-    print("Even")
-else:
-    print("Odd")
-
-num = int(input("Enter a number: "))
-def integer_divisor (num):
-    liste = list()
-    for i in range(1,num+1):
-        if  num % i ==0:
-            liste.append(i)
-    return liste
-print(integer_divisor(num))        
+print(kuvvetAl(2, 4))        
 
 num = int(input("Enter a number: "))
 def prime_number(num):
