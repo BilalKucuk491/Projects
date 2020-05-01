@@ -32,7 +32,7 @@ def Listele(liste):
     
 while True:
     print(menu)
-    secim = input("You are selection: ")
+    secim = input("Your choice: ")
     
     if secim == "0":
         BookName = input("Book Name: ")
