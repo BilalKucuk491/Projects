@@ -1,0 +1,7 @@
+class trump:
+    hair_color = " Blonde "
+    job = "Business man,the old president."
+    netWorth = "2.1 Billion $"
+    TrumpSkills = "Liar,anti-immigrant, he didn't build the mexican wall, he is the angel (joke) "
+        
+    
