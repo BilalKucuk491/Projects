@@ -3,7 +3,12 @@
 Created on Mon May 11 23:03:37 2020
 
 @author: BİLAL
+
+
 Allelic of rabbit to inheritance
+
+
+You are try.
 """
 
 print("""
@@ -15,7 +20,7 @@ print("""
       3) Chinchilla 
       4) Aguti 
     
-      dominant
+      Rabbit dominantion
       Aguti > Chinchilla > Himalayan > Albino
       """)
       
