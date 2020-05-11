@@ -3,6 +3,7 @@
 Created on Mon May 11 23:03:37 2020
 
 @author: BİLAL
+Allelic of rabbit to inheritance
 """
 
 print("""
