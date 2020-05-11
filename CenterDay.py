@@ -10,7 +10,7 @@ Created on Mon May 11 21:29:33 2020
 
     
 def CenterDay(Year):
-    day = int(input("Enter a year 1600-2100 : "))
+    day = int(input("Enter a year 1600 to 2100 : "))
     days = ["Sunday",0,"Monday",1,"Thuesday",2,"Wednesday",3,"Thursday",4,"Friday",5,"Saturday",6]
     
     Th1600 = 4
@@ -34,5 +34,6 @@ def CenterDay(Year):
         print(days[Th2100+1],days[Th2100])       
     else:
         print("Error")
+    return day    
 
 CenterDay(1)
