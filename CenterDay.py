@@ -4,10 +4,12 @@ Created on Mon May 11 21:29:33 2020
 
 @author: BİLAL
 
-
+what day were you born in the future
+I will code showing.
         
 """
 
+# Coding that I chose to find the central days.
     
 def CenterDay(Year):
     day = int(input("Enter a year 1600 to 2100 : "))
