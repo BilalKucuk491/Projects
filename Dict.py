@@ -6,6 +6,6 @@ Created on Mon May 11 22:51:12 2020
 """
 
 #does not enter the same values True = 1 and False = 0 
-# try it 
+# try it and see
 dict = {"Bilal",1,True,False,0}
 print(dict)
