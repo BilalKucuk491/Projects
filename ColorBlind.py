@@ -6,8 +6,10 @@ Created on Mon May 11 19:57:50 2020
 Color-Blind-"T"este
 
 ColorBlind 1.0
-Family tree color-blind basic test.
-Maybe, i will color-blind update.
+Family tree color-blind basic test and i will color-blind update.
+
+\n for line skip.
+Maybe, color-blind function there is import.
 
 """
 x = int(input("Female : "))
