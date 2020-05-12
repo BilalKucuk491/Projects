@@ -37,7 +37,7 @@ def colorBlind(x,y):
     elif x == 0 and y == 0:
         print("\n%100 Diseased")
     else:
-        print("Error")
+        print("Error :(")
     return x,y    
 
 print(colorBlind(x, y))        
