@@ -3,6 +3,7 @@
 Created on Wed May 13 21:20:51 2020
 
 @author: BİLAL
+Hi
 """
 import time as timee
 import random as randomm
