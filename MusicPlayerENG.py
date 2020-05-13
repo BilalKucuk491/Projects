@@ -3,7 +3,7 @@
 Created on Wed May 13 21:20:51 2020
 
 @author: BİLAL
-Hi
+Hi, how are you ?
 """
 import time as timee
 import random as randomm
@@ -24,6 +24,7 @@ class musicPlayer():
             timee.sleep(2)
             print("Sound boost. Sound : {}".format(self.sound))
             self.sound +=5
+            
     def soundReduction(self):
         if (self.sound < 0):
             self.sound = 0
@@ -38,6 +39,7 @@ class musicPlayer():
     def songList(self):
         print(self.songs)
         return self.songs
+    
     def songSel(self):
         count = 1
         for i in self.songs:
@@ -84,21 +86,29 @@ class musicPlayer():
 p1 = musicPlayer(songs = ["Bts - DNA"])
 
 while p1.status == True:
+    
     p1.interface()
     selection = int(input("Enter the number you chose : "))
+    
     if (selection == 1):
         p1.songSel()
+        
     elif (selection == 2):
         p1.soundBoost()
+        
     elif (selection == 3):
         p1.soundReduction()
+        
     elif (selection == 4):
         p1.randomSel()
+        
     elif (selection == 5 ):
         song = input("Enter a song : ")
         p1.addSong(song)
+        
     elif (selection == 6):
         p1.deleteMusic()
+        
     else:
         p1.close()
     
