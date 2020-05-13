@@ -4,6 +4,7 @@ Created on Wed May 13 21:20:51 2020
 
 @author: BİLAL
 Hi, how are you ?
+This is code bloks for you free
 """
 import time as timee
 import random as randomm
