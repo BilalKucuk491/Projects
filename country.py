@@ -14,7 +14,7 @@ class country():
         self.governmant = Governmant
         self.languange = Languange
         self.religion = Religion
-    def capital(self):# __x__ gibi şeyler class çağırıldında çalıştığığ için içine en az 1 tane değer atamamızı ister
+    def capital(self):#Since things like __x__ work when calling class, it wants us to assign at least 1 value to it.
          return "Angora"
     def __str__(self):
          print("Country:    {} \nGovernmant: {} \nLanguage:   {}\nReligion:   {} ".format(self.countryname,self.governmant,self.languange,self.religion))
@@ -27,6 +27,6 @@ print("Population:",turkey.__len__())
 print("Capital:   ",turkey.capital())
 print("+"*25)
 
-print(len(turkey.population))# __len__() ile len() fonksiyonu(methodu) arasındaki fark len fpnksiyonu kapladığı bit kadar yeri sayar __len__() ise farklı uzunlukları tanımlayıp onları kullanmaktır.
+print(len(turkey.population)
 del turkey
 #print(turkey.capital()) Name 'turkey' is not defined.
