@@ -4,7 +4,8 @@ Created on Thu May 14 18:55:16 2020
 
 @author: BİLAL
 
-Hi guys, lets examples a oop. 
+Hi guys, lets examples a oop.
+Can you try computer please your  codes? 
 """
 
 
