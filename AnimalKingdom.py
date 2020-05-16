@@ -11,7 +11,7 @@ class invertebrates(): #Omurgasızlar
     
     def sponges(): #Süngerler
         pass 
-    def solent(): #Sölenterler
+    def solents(): #Sölenterler
         pass 
     def worms(): #Solucanlar
         
