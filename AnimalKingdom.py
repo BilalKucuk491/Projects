@@ -2,7 +2,7 @@
 """
 Created on Sat May 16 22:14:11 2020
 
-@author: BİLAL
+@author: BİLALd
 
 Version 1.0
 This is uptated in future and example very complex.
