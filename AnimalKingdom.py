@@ -43,19 +43,19 @@ class invertebrates():
         pass 
 
 
-class vertebrates(): #Omurgalılar
+class vertebrates(): 
     
-    def fishes(self): #Balıklar
+    def fishes(self):
         pass
-    def two_Living(self): #İki Yaşamlılar
+    def two_Living(self): 
         pass
-    def birds(self): #Kuşlar
+    def birds(self): 
         pass 
-    def mammals(self): #Memeliler
+    def mammals(self): 
         
-        def beaked_Mammals(self): #Gagalı Memeliler
+        def beaked_Mammals(self): 
             pass 
-        def marsupial_Mammals(self): #Keseli Memeliler
+        def marsupial_Mammals(self): 
             pass 
-        def plecantel_Mammals(self): #Plesantalı Memeliler
+        def plecantel_Mammals(self): 
             pass 
