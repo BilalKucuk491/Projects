@@ -15,7 +15,7 @@ class invertebrates():
         pass 
     def solents(): 
         pass 
-    def worms(): #Solucanlar
+    def worms(): 
         
         def flatworms(): 
             pass  
@@ -25,21 +25,21 @@ class invertebrates():
             pass 
         
         
-    def mollusc(): #Yumuşakçalılar
+    def mollusc(): 
         pass 
     
-    def arthropod(): #Eklem Bacaklılar
+    def arthropod(): 
         
-         def crustaceans(): #Kabuklular
+         def crustaceans(): 
              pass 
-         def arachnid(): #Örümceğisiler
+         def arachnid(): 
              pass 
-         def multi_Legged(): #Çok ayaklılar
+         def multi_Legged(): 
              pass
-         def insects(): #Böcekler
+         def insects(): 
             pass 
         
-    def echinoderm(): #Derisi Dikenliler
+    def echinoderm(): 
         pass 
 
 
