@@ -8,7 +8,7 @@ Created on Mon May 11 23:03:37 2020
 Allelic of rabbit to inheritance
 
 
-You are try.
+You are try...
 """
 
 print("""
