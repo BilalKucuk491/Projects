@@ -2,18 +2,18 @@
 """
 Created on Sat May 16 22:14:11 2020
 
-@author: BİLALv
+@author: BİLAL
 
 Version 1.0
 This is uptated in future and example very complex.
 Try it right now.
 """
 
-class invertebrates(): #Omurgasızlar
+class invertebrates(): 
     
-    def sponges(): #Süngerler
+    def sponges(): 
         pass 
-    def solents(): #Sölenterler
+    def solents(): 
         pass 
     def worms(): #Solucanlar
         
