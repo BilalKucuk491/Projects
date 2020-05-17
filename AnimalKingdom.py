@@ -17,11 +17,11 @@ class invertebrates():
         pass 
     def worms(): #Solucanlar
         
-        def flatworms(): #Yassı Solucanlar
+        def flatworms(): 
             pass  
-        def round_Worms(): #Yuvarlak Solucanlar
+        def round_Worms(): 
             pass 
-        def ringed_Worms(): #Halkalı Solucanlar
+        def ringed_Worms(): 
             pass 
         
         
