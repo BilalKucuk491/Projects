@@ -5,49 +5,49 @@ Created on Sat May 16 22:14:11 2020
 @author: BİLAL
 """
 
-class invertebrates(): #Omurgasızlar
+class invertebrates(): 
     
-    def sponges(): #Süngerler
+    def sponges(): 
        with open("sponges.txt","r") as sponge:
                print(sponge.read())
              
-    def solent(): #Sölenterler
+    def solent(): 
          with open("solen.txt","r") as solen:
              print(solen.read())
              
-    def worms(): #Solucanlar
+    def worms():
         with open("worm.txt","r") as worm:
             print(worm.read())
        
-    def molluscs(): #Yumuşakçalılar
+    def molluscs(): 
         with open("mollusc.txt","r") as mollusc:
             print(mollusc.read())
     
-    def arthropod(): #Eklem Bacaklılar
+    def arthropod(): 
         
         with open("arth.txt","r") as arth:
             print(arth.read())
         
-    def echinoderm(): #Derisi Dikenliler
+    def echinoderm(): 
         with open("echino.txt","r") as echino:
             print(echino.read())
 
 
-class vertebrates(): #Omurgalılar
+class vertebrates(): 
     
-    def fishes(self): #Balıklar
+    def fishes(self): 
         pass
-    def two_Living(self): #İki Yaşamlılar
+    def two_Living(self): 
         pass
-    def birds(self): #Kuşlar
+    def birds(self):
         pass 
-    def mammals(self): #Memeliler
+    def mammals(self): 
         
-        def beaked_Mammals(self): #Gagalı Memeliler
+        def beaked_Mammals(self): 
             pass 
-        def marsupial_Mammals(self): #Keseli Memeliler
+        def marsupial_Mammals(self): 
             pass 
-        def plecantel_Mammals(self): #Plesantalı Memeliler
+        def plecantel_Mammals(self): 
             pass 
         
         
