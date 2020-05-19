@@ -5,25 +5,25 @@ Created on Sat May 16 22:14:11 2020
 @author: BİLAL
 """
 
-class invertebrates(): #Omurgasızlar
+class invertebrates(): 
     
-    def sponges(): #Süngerler
+    def sponges(): 
        with open("sponges.txt","r") as sponge:
                print(sponge.read())
              
-    def solent(): #Sölenterler
+    def solent(): 
          with open("solen.txt","r") as solen:
              print(solen.read())
              
-    def worms(): #Solucanlar
+    def worms(): 
         with open("worm.txt","r") as worm:
             print(worm.read())
        
-    def molluscs(): #Yumuşakçalılar
+    def molluscs(): 
         with open("mollusc.txt","r") as mollusc:
             print(mollusc.read())
     
-    def arthropod(): #Eklem Bacaklılar
+    def arthropod(): 
         
         with open("arth.txt","r") as arth:
             print(arth.read())
@@ -33,25 +33,25 @@ class invertebrates(): #Omurgasızlar
             print(echino.read())
 
 
-class vertebrates(): #Omurgalılar
+class vertebrates():
     
-    def fishes(): #Balıklar
+    def fishes(): 
         with open("fish.txt","r") as fish:
             print(fish.read())
             
-    def two_Living(): #İki Yaşamlılar
+    def two_Living(): 
         with open("frog.txt","r") as frog:
             print(frog.read())
             
-    def reptiles(): #Kuşlar
+    def reptiles(): 
         with open("reptile.txt","r") as reptile:
             print(reptile.read())  
             
-    def birds(): #Kuşlar
+    def birds(): 
         with open("bird.txt","r") as bird:
             print(bird.read())
             
-    def mammals(): #Memeliler
+    def mammals(): 
         
         with open("mammal.txt","r") as mammal:
             print(mammal.read())
