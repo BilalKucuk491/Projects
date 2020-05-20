@@ -7,7 +7,7 @@ val= value
 r = diameter
 """
 
-
+class 
 def side_square(val):
     for i in range(int(val)):
         print("#",end="")
