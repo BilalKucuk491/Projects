@@ -12,11 +12,9 @@ class Square:
     def side_square(val):
         for i in range(int(val)):  
          print("#",end="")
-        
+    
     def top_square(r):
-        
         for i in range(int(r/2)):
-            
             side_square(1)
         
         
