@@ -9,7 +9,7 @@ r = diameter
 
 class Square:
     def __init__(self):
-        num = int(input(""Enter a side square"))
+        num = int(input("Enter a side square"))
         r = int(input("Please enter a diameter."))
      return num
         
