@@ -8,7 +8,8 @@ r = diameter
 """
 
 class Square:
-    
+    def __init__(self):
+        
     def side_square(val):
         for i in range(int(val)):  
          print("#",end="")
