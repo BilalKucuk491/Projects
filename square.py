@@ -7,10 +7,12 @@ val= value
 r = diameter
 """
 
-class 
-def side_square(val):
-    for i in range(int(val)):
-        print("#",end="")
+class Square:
+    
+    def side_square(val):
+        
+        for i in range(int(val)):  
+         print("#",end="")
         
 
 def top_square(r):
