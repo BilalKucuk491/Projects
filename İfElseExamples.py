@@ -12,8 +12,10 @@ a = side length
 h = height
      
 """
-
-a = int(input("Side Lenght: "))
-h = int(input("Height: "))
-total_area = a*((4*h**2 + a**2)**0.5 + a)
-print("Total surface area of square pyramid: {}".format(total_area))
+try:
+  a = int(input("Side Lenght: "))
+  h = int(input("Height: "))
+  total_area = a*((4*h**2 + a**2)**0.5 + a)
+  print("Total surface area of square pyramid: {}".format(total_area))
+except ValueError:
+     print("Please, enter a value") 
