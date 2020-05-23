@@ -3,6 +3,9 @@
 Created on Thu Apr  9 12:50:58 2020
 
 @author: BİLAL
+
+daire = circle
+silindir çapı = cylinder diameter
 """
 
 """
