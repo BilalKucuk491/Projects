@@ -47,13 +47,13 @@ pi = 3.14
 alani = int(daire_capi) *2*pi
 print(alani)
 *************************************
-Silindir alanı = 2.pi.r(r+h)
+Formula a field of cylinder = 2.pi.r(r+h)
 
 cylinder_di = input("Diameter of cylinder: ")
 cylinder_height = input("Height of cylinder: ")
 pi = 3.14
 cylinder_field = 2*pi*int(cylinder_di)*(int(cylinder_height) + int(cylinder_di))
-print(silindir_alani) 
+print(cylinder_field) 
 *************************************
 l_edge=input("long edge: ")
 m_edge=input("middle edge: ")
