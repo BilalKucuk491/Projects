@@ -39,4 +39,7 @@ dosya = open("kayit.txt","w")
 print("deneme oldu mu ?",file=dosya,flush=False)
 dosya.close()
 """
+from math import sqrt
+print(sqrt(2,10))
+#1024
 
