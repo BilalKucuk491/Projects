@@ -4,11 +4,12 @@ Created on Sun Apr 12 15:17:12 2020
 
 @author: BİLAL
 
+num = sayi
 
-sayi = 12.9
-sayi = int(sayi)
-sayi = float(sayi)
-print(type(sayi),sayi)
+num = 12.9
+num = int(num)
+num = float(num)
+print(type(num),sum)
 """
 sayi=123
 input(type(sayi))
