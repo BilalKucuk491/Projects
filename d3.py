@@ -19,4 +19,6 @@ while True:
            print("Tahmin sayınız {0}".format(sayac))
 except ValueError:
  print("Please, enter a properly")
+finally:
+ print("Done allways")
 #Try-Catch
