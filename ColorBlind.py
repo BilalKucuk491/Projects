@@ -5,11 +5,12 @@ Created on Mon May 11 19:57:50 2020
 @author: BİLAL
 Color-Blind-"T"este
 
-ColorBlind 1.0
+ColorBlind 1.1
 Family tree color-blind basic test and i will color-blind update.
 
 \n for line skip.
-Maybe, color-blind function there is import.
+\a for beep sound.
+Maybe, color-blind function there is import.(Future)
 
 """
 x = int(input("Female : "))
@@ -27,15 +28,15 @@ def colorBlind(x,y):
     if x == 0 and y == 2:
         print("\n%50 Diseased %50 Disease Carrier")
     elif x == 1 and y == 2:
-        print("\n%25 Diseased %25 Disease Carrier %50 Healthy  ")
+        print("\n%25 Diseased %25 Disease Carrier %50 Healthy \a ")
     elif x == 1 and y == 0:
-        print("\n%25 Diseased %25 Disease Carrier %50 Healthy  ")    
+        print("\n%25 Diseased %25 Disease Carrier %50 Healthy \a ")    
     elif x == 2 and y == 0:
-        print("\n%50 Disease Carrier %50 Healthy")  
+        print("\n%50 Disease Carrier %50 Healthy \a")  
     elif x == 2 and y == 2:
-        print("\n%100 Healthy")
+        print("\n%100 Healthy \a")
     elif x == 0 and y == 0:
-        print("\n%100 Diseased")
+        print("\n%100 Diseased \a")
     else:
         print("Error :(")
     return x,y    
