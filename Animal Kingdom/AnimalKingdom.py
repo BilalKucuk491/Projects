@@ -2,12 +2,13 @@
 """
 Created on Sat May 16 22:14:11 2020
 @author: BİLAL
-Version 1.2
+Version 1.2.1
+
+
 """
 from interface import interFace
-  
-
 interFace()
+
     
         
                
