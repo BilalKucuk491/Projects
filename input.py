@@ -5,9 +5,9 @@ Created on Wed Apr 15 12:56:43 2020
 @author: BİLAL
 
 
-
-dosya = open("deneme.txt","w+")
-print(*"Deneme oldu",file=dosya)
+# document is new file.
+document = open("teste.txt","w+")
+print(*"Mission completed. ",file=document)
 dosya.close()
 
 sayi = int(input("1.sayıyı gir "))
