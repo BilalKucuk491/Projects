@@ -1,4 +1,6 @@
-x = int(input("Enter a number "))
+while 1:
+    try:
+        x = int(input("Enter a number "))
 odd_or_even = lambda x : x % 2 == 0 
 if odd_or_even(x):
     print("Even")
@@ -12,3 +14,7 @@ def integer_divisor (num):
             liste.append(i)
     return liste
 print(integer_divisor(num))
+except ValueFoundError:
+    print("Value Found Error, please enter a value")
+        
+        
