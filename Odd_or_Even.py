@@ -15,7 +15,7 @@ def integer_divisor (num):
             liste.append(i)
     return liste
 print(integer_divisor(num))
-except ValueFoundError:
+except ValueFoundError: #Value error ( int,str,dict,tuple,list,set....)
     print("Value Found Error, please enter a value")
         
         
