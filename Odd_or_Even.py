@@ -1,3 +1,4 @@
+# while 1  or while True all right.
 while 1:
     try:
         x = int(input("Enter a number "))
