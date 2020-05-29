@@ -8,14 +8,15 @@ Created on Wed Apr 15 12:56:43 2020
 # document is new file.
 document = open("teste.txt","w+")
 print(*"Mission completed. ",file=document)
-dosya.close()
+document.close()
+# with ("document","w+") as doc
 
-sayi = int(input("1.sayıyı gir "))
-sayi2 = int(input("2. sayı gir ")) 
-print("{} ile {}'nin toplamı {}'dir.".format(sayi,sayi2,sayi+sayi2))
+num = int(input("Enter a primary number "))
+num2 = int(input("Enter a seconder number  ")) 
+print("{} + {} = {} ".format(num,num2,num+num2))
 
-sayi=input("0 ya da 1 giriniz: ")
-print(bool(sayi))
+num=input("one or zero")
+print(bool(num))
 
 sayi=float(input("1.Sayı : "))
 sayi1=float(input("2.Sayı : "))
