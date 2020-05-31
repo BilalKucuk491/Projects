@@ -4,6 +4,7 @@ Created on Sun May 31 13:49:06 2020
 
 @author: BİLAL
 version 1.0
+try it very easy.
 """
 
 from sqlCommant import sqlCo
