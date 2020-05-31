@@ -3,6 +3,10 @@
 Created on Sat May 30 13:16:48 2020
 
 @author: BİLAL
+baglanti = connect 
+isaretci = cursor
+tablo_olustur = create table
+tablo_veri_ekleme = add data in table
 """
 
 
@@ -16,8 +20,8 @@ def tablo_olustur():
     baglanti.commit()
 
 def tablo_veri_ekleme(name,lastname,school_number):
-    #isaretci.execute("insert into ogrenciler values('Aysel','Kurşun',7000 )")
-    #isaretci.execute("insert into ogrenciler values('{}','{}',{})".format(isim,soyad,maas)) 
+    #isaretci.execute("insert into students values('Aysel','Kursun',7000 )")
+    #isaretci.execute("insert into students values('{}','{}',{})".format(name,lastname,school_number)) 
     isaretci.execute("insert into students values(?,?,?)",(name,lastname,school_number)) 
     baglanti.commit()
     
