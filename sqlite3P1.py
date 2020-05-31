@@ -12,20 +12,20 @@ baglanti = sqlite3.connect("personel.db")
 isaretci = baglanti.cursor()
 
 def tablo_olustur():
-    isaretci.execute("create table if not exists ogrenciler(isim TEXT,soyad TEXT,maas İNT)")
+    isaretci.execute("create table if not exists students(name TEXT,lastname TEXT,school_number İNT)")
     baglanti.commit()
 
-def tablo_veri_ekleme(isim,soyad,maas):
+def tablo_veri_ekleme(name,lastname,school_number):
     #isaretci.execute("insert into ogrenciler values('Aysel','Kurşun',7000 )")
     #isaretci.execute("insert into ogrenciler values('{}','{}',{})".format(isim,soyad,maas)) 
-    isaretci.execute("insert into ogrenciler values(?,?,?)",(isim,soyad,maas)) 
+    isaretci.execute("insert into students values(?,?,?)",(name,lastname,school_number)) 
     baglanti.commit()
     
 tablo_olustur()  
-isim = input("Adınız : ")
-soyad = input("Soyadınız : ")
-maas = input("Maaşınız : ")
-tablo_veri_ekleme(isim,soyad,maas)
+isim = input("You are name : ")
+soyad = input("You are lastname : ")
+maas = input("School number : ")
+tablo_veri_ekleme(name,lastname,school_number)
 
 baglanti.close()
    
