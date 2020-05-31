@@ -58,6 +58,6 @@ while 1:
                 print("Delte column = {}".format(d_name))            
         else:
             break
-    except ValueError:
+    except ValueError: #Value Type error class
         print("Value Type Error")    
    
