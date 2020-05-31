@@ -2,6 +2,7 @@ import sqlite3
 """
 baglanti = connect
 version 1.1
+d_cursor = drink cursor
 """
 baglanti = sqlite3.connect("market.db")
 d_cursor = baglanti.cursor()
