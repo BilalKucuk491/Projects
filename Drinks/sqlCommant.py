@@ -1,9 +1,11 @@
-import sqlite3 
 """
-baglanti = connect
 version 1.1
+baglanti = connect
+d_name = drink name
 d_cursor = drink cursor
+
 """
+import sqlite3 
 baglanti = sqlite3.connect("market.db")
 d_cursor = baglanti.cursor()
 
