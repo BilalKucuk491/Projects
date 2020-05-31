@@ -1,4 +1,5 @@
 import sqlite3 
+# baglanti = connect
 baglanti = sqlite3.connect("market.db")
 d_cursor = baglanti.cursor()
 
